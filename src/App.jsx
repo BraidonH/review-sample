@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { MdOutlineRateReview } from "react-icons/md";
 
 import "./App.css";
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <header>Reviews Sample</header>
+      <MdOutlineRateReview className="review" />
     </div>
   );
 }
