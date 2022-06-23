@@ -59,6 +59,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 10rem;
 }
 
 .review {
@@ -88,6 +89,29 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
+  font-family: "Hind", sans-serif;
+}
+
+.author {
+  text-decoration: underline;
+  font-family: "Rubik", sans-serif;
+}
+
+.job {
+  display: inline-block;
+  font-style: italic;
+  background-color: antiquewhite;
+  justify-self: center;
+  align-self: center;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
+.info {
+  border-left: 0.2rem solid rgb(127, 193, 207);
+  border-right: 0.2rem solid rgb(127, 193, 207);
 }
 
 .img-container {
@@ -106,6 +130,8 @@ p {
   object-fit: cover;
   border-radius: 50%;
   position: relative;
+  clip-path: circle(100%);
+  box-shadow: 4px 4px 0px 2px rgb(131, 183, 211);
 }
 
 .quote-icon {
@@ -146,4 +172,5 @@ p {
   transition: var(--transition);
   border-color: transparent;
   cursor: pointer;
+  font-family: "Rubik", sans-serif;
 }
